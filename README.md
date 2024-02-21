@@ -1,16 +1,18 @@
-### Hi there 👋
+# Clone this repository
+git clone https://github.com/saadpasta/developerFolio.git
 
-<!--
-**abdelghaniboulaamane/abdelghaniboulaamane** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Go into the repository
+cd developerFolio
 
-Here are some ideas to get you started:
+# Setup default environment variables
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# For Linux
+cp env.example .env
+# For Windows
+copy env.example .env
+
+# Install dependencies
+npm install
+
+# Start a local dev server
+npm start
